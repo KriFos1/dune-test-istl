@@ -764,7 +764,7 @@ namespace Dune
 #elif defined(METISNAMEL)
     typedef int idxtype;
 #else
-    typedef std::size_t idxtype;
+    typedef int idxtype;
 #endif
 
 #ifndef METIS_VER_MAJOR
